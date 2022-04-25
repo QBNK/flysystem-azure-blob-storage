@@ -62,7 +62,7 @@ class AzureBlobStorageAdapter implements FilesystemAdapter
         string $prefix = '',
         MimeTypeDetector $mimeTypeDetector = null,
         int $maxResultsForContentsListing = 5000,
-        string $visibilityHandling = self::ON_VISIBILITY_THROW_ERROR,
+        string $visibilityHandling = self::ON_VISIBILITY_THROW_ERROR
     ) {
         $this->client = $client;
         $this->container = $container;
