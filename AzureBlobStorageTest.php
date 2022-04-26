@@ -12,6 +12,8 @@ use League\Flysystem\Visibility;
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use function getenv;
 
+putenv('FLYSYSTEM_AZURE_DSN=');
+
 /**
  * @group azure
  */
