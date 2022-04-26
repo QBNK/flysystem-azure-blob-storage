@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace League\Flysystem\AzureBlobStorage;
+namespace QBNK\Flysystem\AzureBlobStorage;
 
 use League\Flysystem\Config;
 use League\Flysystem\DirectoryAttributes;
